@@ -134,7 +134,7 @@ body{
 }
 .fromdiv > .optionbox{
     width: 685px;
-    height: 40px;
+    height: 65px;
 
     background-color: #354D64;
 }
@@ -398,7 +398,7 @@ address > ul > li:hover{
     }
 }
 /* responsive for iphone/6/6s.... */
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 415px) {
     .card2{
         width: 195px!important;
         font-size: 12px;
@@ -470,8 +470,8 @@ address > ul > li:hover{
         
     }
     .gununcard{
-        width: 177px;
-        height: 210px;
+        width: 150px;
+        height: 250px;
         z-index: 10;
         padding: 0;
     }
@@ -516,6 +516,7 @@ address > ul > li:hover{
     height: 110px;
     width: 100%;
     margin: auto;
+    margin-left: -15px;
     position: relative;
     
 
@@ -528,12 +529,12 @@ address > ul > li:hover{
     background-color: #354D64;
 }
 .fromdiv > .inputbox > .inp1{
-    width: 200px;
+    width: 190px;
     height: 100%;
     padding: 10px;
     display: inline-block;
     border: none;
-    font-size: 20px;
+    font-size: 13px;
     outline: none;
 }
 .fromdiv > .inputbox > .inp2{
@@ -562,8 +563,8 @@ address > ul > li:hover{
     font-weight: 600;
 }
 .fromdiv > .optionbox{
-    width: 100%;
-    height: 80px;
+    width: 320px;
+    height: 70px;
 
     background-color: #354D64;
 }
@@ -576,12 +577,12 @@ address > ul > li:hover{
     border: none!important;
     outline: none!important;
     color: white;
-    font-size: 13px;
+    font-size: 10px;
 }
 /* from section end */
 
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 320px) {
     .card2{
         width: 130px!important;
         margin: auto;
@@ -593,7 +594,7 @@ address > ul > li:hover{
         width: 145px!important;
     }
     .trendcard{
-        width: 300px;
+        width: 150px;
         height: 200px;
     }
     address > ul > li{
@@ -617,4 +618,85 @@ address > ul > li:hover{
     .m32hide{
         display: none!important;
     }
+    .trendcard > .card-body >h3,h4{
+        font-size: 12px!important;
+
+    }
+
+    .trendcard > .card-body > a{
+        background-color: #FFB747;
+        border: none;
+        padding:5px 20px!important;
+        cursor: pointer;
+    }
+      /* from section start */
+
+.fromdiv{
+    height: 110px;
+    width: 300px;
+    margin: auto;
+    margin-left: -15px;
+    position: relative;
+    
+
+}
+.fromdiv > .inputbox{
+    border-top-left-radius: 5px;
+    height: 55px;
+    width: 100%;
+    position: relative;
+    background-color: #354D64;
+}
+.fromdiv > .inputbox > .inp1{
+    width: 210px;
+    height: 100%;
+    padding: 10px;
+    display: inline-block;
+    border: none;
+    font-size: 13px;
+    outline: none;
+}
+.fromdiv > .inputbox > .inp2{
+    display: none;
+}
+.fromdiv > .inputbox > .lbox{
+    display: none;
+    height: 100%;
+    position: absolute;
+    width: 35px;
+    padding-right: 10px;
+    display: inline-block;
+    margin-left: -4px;
+    padding-top: 6px;
+    padding-left: 6px;
+    cursor: pointer;
+    background-color: white;
+}
+.fromdiv > .inputbox >.sbtn{
+    border: none;
+    position:absolute;
+    height: 100%;
+    width: 62px;
+    background-color: #FFB747;
+    font-size: 26px;
+    font-weight: 600;
+}
+.fromdiv > .optionbox{
+    width: 310px;
+    height: 70px;
+    margin-top: 30px;
+    background-color: #354D64;
+}
+.fromdiv > .inputbox >.sbtn:hover{
+    color: white;
+}
+
+.optionbox > .btn-group > label{
+    float: left;
+    border: none!important;
+    outline: none!important;
+    color: white;
+    font-size: 10px;
+}
+/* from section end */
 }
